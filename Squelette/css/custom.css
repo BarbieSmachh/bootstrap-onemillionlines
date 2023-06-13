@@ -1,6 +1,7 @@
 /* Vos customisations des classes de Bootstrap */
 .solid{
     margin-top: 20px;
+    margin-bottom: 20px;
     border-top: 2px solid #eb7062;
     width: 208px;
     margin-left: 50%;
