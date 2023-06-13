@@ -1,4 +1,7 @@
 /* Vos customisations des classes de Bootstrap */
+span{
+    color: #e84d3d;
+}
 .solid{
     margin-top: 20px;
     margin-bottom: 20px;
