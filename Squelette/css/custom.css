@@ -1,8 +1,41 @@
 /* Vos customisations des classes de Bootstrap */
+.solid{
+    margin-top: 20px;
+    border-top: 2px solid #eb7062;
+    width: 208px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#who h1{
+color: #e74c47;
+}
+#M{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#CODE{
+    margin-top: 20px;
+    width: 50px;
+}
+#button1{
+    background-color: #d9534f;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.nav-link, h1, h2, h3{
+    font-family: "Arvo", serif;
+}
+#home{
+    background:url(../images/hero-image.jpg)top no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 333px;
+    color: aliceblue;
 
-
-
-
+}
+.navbar-dark{
+   background-color: #222222;
+}
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
