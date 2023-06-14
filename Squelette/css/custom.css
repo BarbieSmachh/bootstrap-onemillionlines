@@ -1,4 +1,17 @@
 /* Vos customisations des classes de Bootstrap */
+h4{
+    color: #ea5b3c;
+}
+svg{
+    width: 65%;
+    height: 65%;
+    fill: white;
+}
+.circle{
+    width: 28%;
+    border-radius: 50%;
+    background-color: #333333;
+}
 span{
     color: #e84d3d;
 }
@@ -9,6 +22,15 @@ span{
     width: 208px;
     margin-left: 50%;
     transform: translateX(-50%);
+}
+#get-involved{
+    background-color: #f5f5f5;
+}
+#get-involved h1{
+    color: #e74c3c;
+}
+#who{
+    margin-bottom: 25px;
 }
 #who h1{
 color: #e74c47;
@@ -25,6 +47,10 @@ color: #e74c47;
     background-color: #d9534f;
     color: aliceblue;
     margin-top: 20px;
+}
+#button2{
+    color:#e8544b ;
+    background-color:#ffffff;
 }
 .nav-link, h1, h2, h3{
     font-family: "Arvo", serif;
