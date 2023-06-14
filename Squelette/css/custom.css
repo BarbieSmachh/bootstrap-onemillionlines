@@ -1,14 +1,39 @@
 /* Vos customisations des classes de Bootstrap */
+.top {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 50px;
+  }
+#logobottom{
+    position:relative;
+    left: 100px;
+    bottom: -150px;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color:#f74c3c;
+}
 h4{
     color: #ea5b3c;
 }
 svg{
-    width: 65%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
     fill: white;
+    transform: translateY(50%);
 }
 .circle{
-    width: 28%;
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     border-radius: 50%;
     background-color: #333333;
 }
@@ -49,6 +74,9 @@ color: #e74c47;
     margin-top: 20px;
 }
 #button2{
+    width: 150px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     color:#e8544b ;
     background-color:#ffffff;
 }
@@ -59,7 +87,6 @@ color: #e74c47;
     background:url(../images/hero-image.jpg)top no-repeat ;
     background-size: cover;
     width: 100%;
-    height: 333px;
     color: aliceblue;
 
 }
@@ -77,5 +104,6 @@ color: #e74c47;
 }
 
 @media (max-width: 767px) {
+
 
 }
